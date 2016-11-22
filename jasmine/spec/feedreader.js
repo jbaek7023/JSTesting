@@ -88,8 +88,8 @@ $(function() {
         });
 
         it('changes feed', function(done) {
-            loadFeed(0, function() {
-                newContent = $('.feed').text();
+            loadFeed(1, function() {
+                newContent = $('.feed .entry').text();
                 expect(currentContent).not.toBe(newContent);
                 done();
             });
