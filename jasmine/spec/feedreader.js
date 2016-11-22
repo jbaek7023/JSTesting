@@ -42,7 +42,7 @@ $(function() {
         beforeEach(function() {
             body = $('body');
             menuIcon = $('.menu-icon-link');
-        })
+        });
 
         it('is hidden by default', function() {
             expect(body.hasClass('menu-hidden')).toBe(true);
@@ -71,7 +71,7 @@ $(function() {
         });
 
         it('has one or more entries', function() {
-            var entryLength = $('.feed .entry').length
+            var entryLength = $('.feed .entry').length;
             expect(entryLength).not.toBe(0);
         });
     });
