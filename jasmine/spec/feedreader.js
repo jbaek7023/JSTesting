@@ -80,18 +80,14 @@ $(function() {
         var currentContent;
         var newContent;
 
-        beforeEach(function(done) {
+        it('changes feed', function(done) {
             loadFeed(0, function() {
                 currentContent = $('.feed .entry').text();
-                done();
-            });
-        });
-
-        it('changes feed', function(done) {
-            loadFeed(1, function() {
-                newContent = $('.feed .entry').text();
-                expect(currentContent).not.toBe(newContent);
-                done();
+                loadFeed(1, function(){
+                    newContent = $('.feed .entry').text();
+                    expect(currentContent).not.toBe(newContent);
+                    done();
+                });
             });
         });
     });
