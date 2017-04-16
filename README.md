@@ -1,6 +1,7 @@
 # Project Overview
 
 This is a web-based application that reads RSS feeds. 
+![intro](intro.png)
 
 # How to Run 
 1. clone https://github.com/jbaek7023/JSTesting.git
