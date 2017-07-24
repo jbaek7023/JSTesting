@@ -2,7 +2,7 @@
 
 
 ![intro](intro.png)
-⋅⋅⋅ d
+<br />
 This is a web-based application that reads RSS feeds. [DEMO](https://jbaek7023.github.io/JSTesting/.)
 
 # How to Run 
